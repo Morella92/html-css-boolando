@@ -28,6 +28,10 @@ h1 {
 	border: 4px dashed tomato;
 }
 
+ol, ul, menu{
+    list-style: none;
+}
+
 header {
 	min-height: 80px;
 	padding: 20px;
@@ -37,12 +41,65 @@ header {
     display: flex;
 }
 
-.col{
+.card{
     flex-basis: calc(100% / 3);
     border: 2px solid black;
 }
 
+figure{
+    position: relative;
+}
+
+.heart{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    text-align: center;
+}
+
+.info-products{
+    display: flex;
+    height: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.discount-percent{
+    width: 40px;
+    background-color: red;
+}
+
+.sustainability{
+    background-color: green;
+    width: 70px;
+    left: 45px;
+}
+
 .card-text{
     font-family: 'Open Sans', sans-serif;
-    padding: 20px;
+    padding: 5px;
+}
+
+.description{
+    font-weight: 600;
+}
+
+.brand, .price{
+    font-size: 15px;
+}
+
+.new-price{
+    color: red;
+    font-weight: 600;
+}
+
+.discount{
+    text-decoration: line-through;
 }
