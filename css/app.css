@@ -39,7 +39,6 @@ header {
 
 .card{
     flex-basis: calc(100% / 3);
-    align-items: space-around;
 }
 
 figure{
