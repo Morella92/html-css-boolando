@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Noto+Serif+NP+Hmong:wght@600&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.section {
+	padding: 48px 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	line-height: 150px;
+}
+
+.container {
+	padding: 20px;
+	border: 4px dashed tomato;
+}
+
+header {
+	min-height: 80px;
+	padding: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    flex-basis: calc(100% / 3);
+    border: 2px solid black;
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
