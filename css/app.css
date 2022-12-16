@@ -23,11 +23,6 @@ h1 {
 	line-height: 150px;
 }
 
-.container {
-	padding: 20px;
-	border: 4px dashed tomato;
-}
-
 ol, ul, menu{
     list-style: none;
 }
@@ -39,11 +34,12 @@ header {
 
 .row{
     display: flex;
+    justify-content: center;
 }
 
 .card{
     flex-basis: calc(100% / 3);
-    border: 2px solid black;
+    align-items: space-around;
 }
 
 figure{
