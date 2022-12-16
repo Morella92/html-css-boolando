@@ -10,17 +10,23 @@ img {
 	max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 .section {
 	padding: 48px 0;
 }
 
-.container {
-	max-width: 900px;
-	margin: 0 auto;
+body{
+    background-color: lightgray;
 }
 
-h1 {
-	line-height: 150px;
+.container {
+	max-width: 700px;
+	margin: 0 auto;
+    background-color: white;
 }
 
 ol, ul, menu{
@@ -32,9 +38,30 @@ header {
 	padding: 20px;
 }
 
+.navbar{
+    background-color: orange;
+    justify-content: space-evenly;
+}
+
+.col-navbar{
+    display: flex;
+    flex-basis: calc(100% / 3);
+    max-height: 30px;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.unicodes{
+    justify-content: flex-end;
+}
 .row{
     display: flex;
-    justify-content: center;
 }
 
 .card{
@@ -103,4 +130,23 @@ figure{
 .last-card{
     position: absolute;
     left: 0;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer-col{
+    color: white;
+    padding: 20px;
+}
+
+
+.footer-title{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer-items{
+    font-size: 10px;
 }
